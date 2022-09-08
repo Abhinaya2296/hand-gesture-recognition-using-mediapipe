@@ -1,8 +1,8 @@
 # hand-gesture-recognition-using-mediapipe
 
 # Requirements
-1:opencv-python/n
-2:mediapipe
+1)opencv-python
+2)mediapipe
 
 
 # MediaPipe
