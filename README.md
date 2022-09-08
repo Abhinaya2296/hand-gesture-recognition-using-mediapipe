@@ -1,11 +1,11 @@
 # hand-gesture-recognition-using-mediapipe
 
-#Requirements
+# Requirements
 opencv-python
 mediapipe
 
 
-#MediaPipe
+# MediaPipe
 
 Simple Hand Gesture Recognition Code - Hand tracking - Mediapipe
 Goal of this gist is to recognize B(baby fingure), T(thumb), M(middle),  R(ring fingure), I(index fingure). We use the LANDMARKS output of the Landmark. This output is a landmark list that contains 21 landmark. In the hand_landmarks.jpg picture below you can see the index of each landmark. Each landmark have x, y and z values. But only x, y values are sufficient for our Goal.
@@ -20,7 +20,7 @@ For exmaple: thumb is open if the x value of landmark 3 and the x value of landm
 
 ![hand_crops](https://user-images.githubusercontent.com/82312119/189110520-93bdc9c5-24cf-4493-acb1-d36d75e7bc35.png)
 
-#Reference
+# Reference
 MediaPipe
 https://google.github.io/mediapipe/solutions/hands.html
 
